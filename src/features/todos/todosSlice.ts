@@ -45,7 +45,6 @@ export const todosSlice = createSlice({
       .addCase(AddTodo.rejected, (state) => {
         state.status = "failed";
       })
-
       .addCase(UpdateTodo.pending, (state) => {
         state.status = "failed";
       })
