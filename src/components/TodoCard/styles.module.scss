@@ -1,0 +1,21 @@
+
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: beige;
+  gap: 5px;
+  width: 300px;
+  word-break: break-all;
+  border-radius: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+
+  button {
+    width: 100%;
+  }
+}
